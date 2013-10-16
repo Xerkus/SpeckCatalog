@@ -4,7 +4,7 @@ namespace SpeckCatalogTest\Helper;
 
 use BadMethodCallException;
 
-class ProtectedSetterAccessor
+final class ProtectedSetterAccessor
 {
     protected $accessor;
 
